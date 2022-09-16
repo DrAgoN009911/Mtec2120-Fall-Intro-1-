@@ -10,6 +10,11 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+#Large files to ignore
+Assets/Textures/Bush 1.png
+Assets/Textures/Flower 1.png
+Assets/Textures/Grass 1.png
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
