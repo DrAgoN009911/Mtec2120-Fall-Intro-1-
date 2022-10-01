@@ -1,0 +1,34 @@
+{
+    "name": "New Controls 1",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "7d31eb56-aaa9-495e-9f82-5f618224a431",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "fbee5ec6-a2d0-4aa2-81c7-53ce44874463",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d3849537-69cf-4351-8c23-c6de7f150082",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
