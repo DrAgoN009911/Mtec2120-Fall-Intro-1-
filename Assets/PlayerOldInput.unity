@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 1052418290}
   - component: {fileID: 1052418289}
   - component: {fileID: 1052418295}
-  - component: {fileID: 1052418294}
+  - component: {fileID: 1052418296}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -515,19 +515,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1052418294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052418287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f85fcb3e7dc9840aeacc50954479441b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 100
 --- !u!114 &1052418295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: d0980077990254dcaaea818671d363ef, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: ffe7c17d48eca4846a23a5900858c5a4, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -555,9 +542,9 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1052418294}
-        m_TargetAssemblyTypeName: PlayerNewInput, Assembly-CSharp
-        m_MethodName: OnJump
+      - m_Target: {fileID: 1052418296}
+        m_TargetAssemblyTypeName: NewPlayer, Assembly-CSharp
+        m_MethodName: OnFire
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -567,10 +554,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: 8b543af4-f1e3-437e-8a98-a03f1f8aeb47
-    m_ActionName: New action map/Jump[/Keyboard/space]
+    m_ActionId: fbee5ec6-a2d0-4aa2-81c7-53ce44874463
+    m_ActionName: New action map/Fire[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: New action map
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1052418296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052418287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b18bb6dcbab684cac907f023a65eb737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 4537505444207017109, guid: 617536e6873e440efbd553aed7f567f3, type: 3}
