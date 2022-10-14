@@ -1,0 +1,114 @@
+{
+    "name": "New Controls 2",
+    "maps": [
+        {
+            "name": "Action",
+            "id": "a7619f97-d3a4-40ed-bd36-2adad4d1fc2a",
+            "actions": [
+                {
+                    "name": "Spray",
+                    "type": "Button",
+                    "id": "2de3c851-28a1-4d5a-af04-4bfb8858d4b1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spraytwo",
+                    "type": "Button",
+                    "id": "6d977b82-1c34-4716-92c6-7e83b26f61ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spraythree",
+                    "type": "Button",
+                    "id": "42c49663-d722-4e7e-99a3-deccbf4f8c73",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprayfour",
+                    "type": "Button",
+                    "id": "445d34ef-57a6-4764-b3e0-d1f10a8f7aab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprayfive",
+                    "type": "Button",
+                    "id": "1eb34ad4-cdaf-4d67-b7b8-d950076e1236",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7de4bcb2-8be1-4661-98a9-cf5fc2b52f22",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spray",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c467efd-edf8-496b-a6e3-cdaa50145345",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spraytwo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a013acd5-39d4-48bb-8eb8-0f9e169a80ef",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spraythree",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9730b756-117d-41cf-b162-91c1a8500441",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprayfour",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5fd78995-2188-4be0-8fdb-a9f346682726",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprayfive",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
