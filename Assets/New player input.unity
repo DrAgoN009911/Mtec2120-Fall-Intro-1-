@@ -232,7 +232,6 @@ GameObject:
   - component: {fileID: 308880815}
   - component: {fileID: 308880814}
   - component: {fileID: 308880813}
-  - component: {fileID: 308880812}
   m_Layer: 0
   m_Name: Particle System (3)
   m_TagString: Untagged
@@ -240,18 +239,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &308880812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308880811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d91128d9008423687d349ea4cbfd2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &308880813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,7 +278,7 @@ MonoBehaviour:
     m_ActionName: Action/Spraythree[/Keyboard/d]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 308880812}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ParticleSystemone, Assembly-CSharp
         m_MethodName: onSprayfour
         m_Mode: 0
@@ -5120,7 +5107,6 @@ GameObject:
   - component: {fileID: 391208105}
   - component: {fileID: 391208104}
   - component: {fileID: 391208103}
-  - component: {fileID: 391208102}
   m_Layer: 0
   m_Name: Particle System (1)
   m_TagString: Untagged
@@ -5128,18 +5114,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &391208102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391208101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d91128d9008423687d349ea4cbfd2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &391208103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10248,7 +10222,6 @@ GameObject:
   - component: {fileID: 1043280167}
   - component: {fileID: 1043280166}
   - component: {fileID: 1043280165}
-  - component: {fileID: 1043280164}
   m_Layer: 0
   m_Name: Particle System (2)
   m_TagString: Untagged
@@ -10256,18 +10229,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1043280164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043280163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d91128d9008423687d349ea4cbfd2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1043280165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15280,7 +15241,6 @@ GameObject:
   - component: {fileID: 1168606841}
   - component: {fileID: 1168606840}
   - component: {fileID: 1168606839}
-  - component: {fileID: 1168606838}
   m_Layer: 0
   m_Name: Particle System (4)
   m_TagString: Untagged
@@ -15288,18 +15248,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1168606838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168606837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d91128d9008423687d349ea4cbfd2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1168606839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15343,7 +15291,7 @@ MonoBehaviour:
     m_ActionName: Action/Sprayfour[/Keyboard/f]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1168606838}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ParticleSystemone, Assembly-CSharp
         m_MethodName: onSprayfive
         m_Mode: 0
@@ -20169,7 +20117,6 @@ GameObject:
   - component: {fileID: 1397772557}
   - component: {fileID: 1397772556}
   - component: {fileID: 1397772561}
-  - component: {fileID: 1397772560}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -24990,18 +24937,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1397772560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397772555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d91128d9008423687d349ea4cbfd2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1397772561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25029,7 +24964,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1397772560}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ParticleSystemone, Assembly-CSharp
         m_MethodName: onSpray
         m_Mode: 0
@@ -25045,7 +24980,7 @@ MonoBehaviour:
     m_ActionName: Action/PS1[/Keyboard/a]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 391208102}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ParticleSystemone, Assembly-CSharp
         m_MethodName: onSpraytwo
         m_Mode: 0
@@ -25061,7 +24996,7 @@ MonoBehaviour:
     m_ActionName: Action/PS2[/Keyboard/s]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1043280164}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ParticleSystemone, Assembly-CSharp
         m_MethodName: onSpraythree
         m_Mode: 0

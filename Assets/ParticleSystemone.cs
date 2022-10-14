@@ -5,15 +5,13 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
 
 public class ParticleSystemone : MonoBehaviour
-{
-    GameObject particledGameObject;
-    bool isActive;
-
+{ 
+   
 
     public void onSpray(InputAction.CallbackContext context)
     {
-        Debug.Log("Spray!!");
-        particledGameObject.SetActive(!isActive);
+
+        Debug.Log("Spray!!");  
     }
 
     public void onSpraytwo(InputAction.CallbackContext context)

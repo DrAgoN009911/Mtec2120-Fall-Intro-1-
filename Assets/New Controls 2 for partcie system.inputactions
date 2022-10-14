@@ -1,0 +1,74 @@
+{
+    "name": "New Controls 2 for partcie system",
+    "maps": [
+        {
+            "name": "Action",
+            "id": "2ba36f4c-64f6-4f72-a66b-e6c3288625f1",
+            "actions": [
+                {
+                    "name": "Spray",
+                    "type": "Button",
+                    "id": "3de9c470-4c76-4d04-aed9-38da369a3305",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spraytwo",
+                    "type": "Button",
+                    "id": "a7c21d71-023e-4f34-a2bc-81254bd9b51f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spraythree",
+                    "type": "Button",
+                    "id": "3adcf496-d6c5-4b75-a28c-a4a179020cb4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f7c568a7-ab2e-478a-ac2d-70c0438b6bf8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spray",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4aadf153-5824-48bc-b2c8-0315d7989d00",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spraytwo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e866d40-27c2-4086-b40f-69fb06aed895",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spraythree",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
